@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"deep-extend",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "deep-extend",
+    "description": "api documentation for [deep-extend (v0.4.1)](https://github.com/unclechu/node-deep-extend) [![npm package](https://img.shields.io/npm/v/npmdoc-deep-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-extend)",
     "devDependencies": {
         "deep-extend": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-deep-extend",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-deep-extend",
+    "keywords": [
+        "documentation",
+        "deep-extend"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_deep_extend.js",
+    "name": "npmdoc-deep-extend",
+    "nameAlias": "npmdoc_deep_extend",
+    "nameOriginal": "npmdoc-deep-extend",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-deep-extend"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
