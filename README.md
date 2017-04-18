@@ -1,9 +1,14 @@
-# api documentation for  [deep-extend (v0.4.1)](https://github.com/unclechu/node-deep-extend)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-extend)
+# npmdoc-deep-extend
+
+#### api documentation for  [deep-extend (v0.4.1)](https://github.com/unclechu/node-deep-extend)  [![npm package](https://img.shields.io/npm/v/npmdoc-deep-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-deep-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-deep-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-deep-extend)
+
 #### Recursive object extending
 
-[![NPM](https://nodei.co/npm/deep-extend.png?downloads=true)](https://www.npmjs.com/package/deep-extend)
+[![NPM](https://nodei.co/npm/deep-extend.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/deep-extend)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-deep-extend/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-deep-extend_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-deep-extend/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-deep-extend/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-deep-extend/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-deep-extend/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-deep-extend/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-deep-extend/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Viacheslav Lotsmanov",
-        "email": "lotsmanov89@gmail.com"
+        "name": "Viacheslav Lotsmanov"
     },
     "bugs": {
         "url": "https://github.com/unclechu/node-deep-extend/issues"
@@ -77,13 +81,11 @@
     "main": "lib/deep-extend.js",
     "maintainers": [
         {
-            "name": "unclechu",
-            "email": "lotsmanov89@gmail.com"
+            "name": "unclechu"
         }
     ],
     "name": "deep-extend",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/unclechu/node-deep-extend.git"
@@ -94,16 +96,6 @@
     "version": "0.4.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module deep-extend](#apidoc.module.deep-extend)
-
-
-
-# <a name="apidoc.module.deep-extend"></a>[module deep-extend](#apidoc.module.deep-extend)
 
 
 
